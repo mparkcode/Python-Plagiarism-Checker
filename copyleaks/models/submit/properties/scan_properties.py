@@ -119,7 +119,7 @@ class ScanProperties:
                 value: Boolean. To turn on, specify `True`. On production, choose `False`.
         '''
 
-        assert value
+        # assert value
 
         self.sandbox = value
 

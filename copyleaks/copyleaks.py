@@ -134,6 +134,7 @@ class Copyleaks(object):
         '''
         assert product
         url = f"{Consts.API_SERVER_URI}/v3/{product}/submit/file/{scan_id}"
+        print(url)
         Copyleaks.__submit(url, auth_token, scan_id, submission)
 
     @staticmethod
